@@ -1,0 +1,11 @@
+#imgBanner{
+    width: 85%;
+}
+#avatar{
+    width: 35%;
+}
+@media screen and (max-width: 576px) {
+    .profPage{
+        margin-top: 3.5rem;
+    }
+}

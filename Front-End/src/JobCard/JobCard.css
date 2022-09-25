@@ -1,0 +1,47 @@
+button{
+    background-color: #303183;
+    font-family: 'Ubuntu';
+    border:none;
+    border-radius: 15px;
+    padding: 5px 20px;
+
+}
+button>a{
+    text-decoration: none;
+    color: white;
+}
+#jobCard{
+    position: relative;
+    z-index: 1;
+}
+.popUp{
+    position: absolute;
+    top: 5rem
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 576px) {
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .dynamicBtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+    .staticBtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        margin: 3px 0px;
+    }
+    .dynamicBtn>button{
+        margin: 3px 0px;
+    }
+}
